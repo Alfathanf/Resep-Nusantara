@@ -7,7 +7,6 @@ export default function RecipeGrid({ recipes, onRecipeClick }) {
   const [visibleCards, setVisibleCards] = useState(new Set());
   const cardRefs = useRef([]);
 
-  // state favorit
     const [favorites, setFavorites] = useState({});
   
     useEffect(() => {
